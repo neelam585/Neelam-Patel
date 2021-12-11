@@ -1,3 +1,9 @@
+React
+
+https://www.freecodecamp.org/news/how-to-perform-crud-operations-using-react/
+https://www.npmjs.com/package/semantic-ui-react
+get api: https://jsonplaceholder.typicode.com/todos/1
+
 1. git status
 2. git pull origin main
 3. git commit -m ""
