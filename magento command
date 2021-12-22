@@ -1,0 +1,174 @@
+﻿--------------------------------------------------------------------------
+zip -r app.zip app
+unzip media.zip
+-----------------------------------------------------------------------------
+php bin/magento setup:install --base-url=http://127.0.0.1/M24/ --db-host=localhost --db-name=receptpharmacy --db-user=root --db-password= --admin-firstname=Magento --admin-lastname=User --admin-email=user@example.com --admin-user=admin --admin-password=admin123 --language=en_US --currency=USD --timezone=America/Chicago --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=localhost --elasticsearch-port=9200
+
+https://stackoverflow.com/questions/19420766/how-to-create-a-qwc-file-for-quickbooks-web-connector
+ https://codepen.io/codeorum/embed/abNKdvo?default-tab=result&theme-id=36614
+ 
+cd /var/www/html
+cd magento2-2.4/
+
+cd prod/pub
+on root>ls -l 
+High Importance
+Chage this when site move to https:::************ web/secure/use_in_frontend = 1 web/seo/use_rewrites = 0
+sudo chmod -R 777 var/ generated/ pub/static/
+sudo chmod -R 777 app/etc/config.php
+sudo chmod -R 777 
+
+*******: sudo chmod -R 777 var/ generated/ pub/static/ pub/media/
+
+sudo chmod -R 777 app/code/Pharmacy/Prescription/view/frontend/web/css
+
+php bin/magento config:show web/secure/use_in_adminhtml
+ 
+sudo -i service elasticsearch start 
+
+
+http://10.0.1.22/prod/pub/admin_1w3hun/admin/index/index/key/517a0fe8e38de73a953b21a18a33ace52f54ee89a4f8dfd0637401bba420401f/
+ 
+ http://127.0.0.1/M24/admin_sguep5/sales/order/view/order_id/4/key/2cc8565ed045edf40170ae2a1b7bc21edb7e2ab509ce2dc0070d5fa9143d4227/
+adminuser
+admin@123
+ 
+ 
+echo  $customerOrder->getSelect()->__toString();     use for print sql query
+
+ 
+https://magento.stackexchange.com/questions/203344/how-can-i-add-fields-on-the-registration-form
+ 
+mysql -u root -p;
+Uat DBPassword: Magento2@123
+
+update sales_order set account_id=Null, cc_id=Null; 
+
+ 
+All type image https://www.istockphoto.com/
+
+magento-coding-standard\vendor\bin\PHPCS --standard=PEAR app\code\Banner\Grid\
+
+install intl on etc folder : yum --enablerepo=remi install php-intl
+  
+php bin/magento config:set dev/static/sign 0
+  
+rm -rf var/cache/* var/page_cache/* pub/static/*
+  
+mysqldump -u root -p magento > Pharma13Dec.sql
+
+mysql -u username -p receipt_pharmacy < Pharma13Dec.sql
+----------------------------------------------
+sudo yum install unzip
+yes
+
+MOVE
+sudo mv magento2-2.4/* /var/www/html
+--------------------------------------------------------------------------
+admin1@chetuiwk195:/var/www/html/afterinc$ sudo systemctl start elasticsearch
+admin1@chetuiwk195:/var/www/html/afterinc$ sudo systemctl status elasticsearch
+
+php bin/magento setup:upgrade & setup:di:compile &  setup:static-content:deploy -f & c:f
+  
+php bin/magento cache:flush
+php bin/magento cache:disable
+--php bin/magento setup:upgrade
+php bin/magento setup:di:compile
+--php bin/magento setup:static-content:deploy -f
+php bin/magento module:status
+php bin/magento module:enable --all
+php bin/magento module:disable Mageplaza_Smtp
+php bin/magento indexer:reindex
+
+php bin/magento indexer:reindex indexer_name.
+php bin/magento deploy:mode:set developer
+php bin/magento dev:template-hints:enable
+php bin/magento cron:run --group default
+php -dmemory_limit=5G bin/magento setup:static-content:deploy -f
+php bin/magento app:config:import
+------------------------------------------------------------------------------------
+mysqldump -u root -p magento > /var/www/html/magento2-2.4/Pharma13Dec.sql
+mysqldump -u root -p magento > /var/www/html/prod/PharmaProduction13Dec.sql
+------------------------------------------------------------------------------------------ 
+Template enable
+php bin/magento dev:template-hints:enable
+php bin/magento dev:template-hints:disable
+ 
+php bin/magento theme:uninstall 
+ 
+select * from theme;
+SELECT * FROM core_config_data WHERE path = "design/theme/theme_id" 
+
+- Installing globally PHPCS
+```
+composer global require squizlabs/php_codesniffer
+```
+
+Cmd   for check errors: magento-coding-standard\vendor\bin\PHPCS --standard=PEAR app\code\Pincode\Checker\ 
+ 
+ 
+-----------------------------------------------------------------------------------------------------
+\Magento\Framework\App\ObjectManager::getInstance()
+    ->get(\Psr\Log\LoggerInterface::class)->debug('your message rrrrrrrrrrrrrr'.$attributeValue[0]);
+-------------------------------------------------------------------------------------------------------	
+ 
+ 
+php bin/magento indexer:info
+For cron
+pho bin/magento cron:run
+php bin/magento indexer:reindex
+Export Prodcut
+php bin/magento queue:consumers:start exportProcessor
+--------------------
+$ grep -lr "page-title-wrapper" vendor/
+how to  search  particular  word in  folder
+ 
+Create Admin Login
+php bin/magento admin:user:create --admin-user='neelam' --admin-password='Chetu@123' --admin-email='admin2@chetu.com' --admin-firstname='neelam'
+--admin-lastname='admin2'
+ 
+for checkout page use in  console
+jQuery('.action.primary.checkout').trigger('click');
+ 
+Export database
+ 
+D:xampp\mysql\bin>mysql -u root -p vs-prod < D:\xampp\dustyh16_josh1.sql
+ 
+mysql -u dustyh16_josh -p dustyh16_josh < /var/www/html/dustyh16_josh.sql
+ 
+mysql -u  -p dustyh16_josh < /var/www/html
+ 
+mysql -u root -p dustyh16_josh < /var/wwww/html/dustyh16_josh.sql
+ 
+mysql -u root -p poolguard_uat_2 < /var/wwww/html/next-release/sqlpoolguard_uat_2.sql
+ 
+mysql -u root -p poolguard_uat_2 < poolguard_uat_2.sql
+ 
+mysqldump -u root -p dustyh16_josh > var/www/html/dustyh16_josh.sql
+mysqldump -u root -p poolguard_uat_2 > var/www/html/poolguard_uat_2.sql
+mysqldump -u uat -p poolguard_uat_2 > poolguard_uat_2.sql
+mysqldump -u [user] -p [db_name] | gzip > [filename_to_compress.sql.gz]
+mysqldump -u uat -p poolguard_uat_2 > poolguard_uat_2.sql
+ 
+ mysqldump -u root -p receptpharmacy > receptpharmacy.sql
+ 
+Hardoi@_1234
+ 
+jetrails
+https://jetrails.com/blog/varnish-extension-for-magento-2/#
+ 
+https://learn.jetrails.com/article/magento-2-varnish-extension#the-mit-license
+for speed in  sideground
+ 
+https://www.siteground.com/tutorials/supercacher/magento-memcached/#Enable_Memcached_for_Magento_2x
+
+php bin/magento setup:install
+
+php bin/magento admin:user:create --admin-user=adminuser --admin-password=admin@123 --admin-email=hi@mageplaza.com --admin-firstname=test --admin-lastname=user
+
+Magento 2.4 installation
+
+php bin/magento setup:install --base-url=http://127.0.0.1/Magento24Testing/ --db-host=localhost --db-name=m241 --db-user=root --db-password= --admin-firstname=Magento --admin-lastname=User --admin-email=user@example.com --admin-user=admin --admin-password=admin123 --language=en_US --currency=USD --timezone=America/Chicago --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=localhost --elasticsearch-port=9200
+
+
+php bin/magento admin:user:create --admin-user=admin --admin-password=admin@123 --admin-email=admin@gmail.com --admin-firstname=test --admin-lastname=user
