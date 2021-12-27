@@ -21,6 +21,11 @@ Plugin: A plugin, or interceptor, is a class that modifies the behavior of publi
         or around that function call. This allows you to substitute or extend the behavior of original, public methods for any class or interface.
 	This interception approach reduces conflicts among extensions that change the behavior of the same class or method.
 Proxy: Proxies work as a surrogate which means it acts on behalf of others, in programming, they are classes which could be used instead of any other class. 
+
+Service contract design patterns: a design pattern is a recommended way of writing code that includes when to use, or not use, the pattern.
+                                  Service contract data interfaces are now mutable.
+				  A service contract must define data interfaces, which preserve data integrity, and service interfaces, which hide business logic
+				  from service requestors.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 https://www.igp.com/p-led-personalized-keychain-99420?currency=inr&utm_source=google&utm_medium=cpc&utm_campaign=2058195812&adgroupid=81728661288&device=c&keyword=&loc_interest_ms=&loc_physical_ms=9302611&feeditemid=&adposition=&gclid=EAIaIQobChMI0d-02Lzl8wIVB4rICh2ccwEVEAQYJyABEgLsT_D_BwE
 
