@@ -314,10 +314,8 @@ https://meetanshi.com/blog/solved-invalid-parameter-given-a-valid-fileidtmp_name
 https://magento.stackexchange.com/questions/237027/programatically-update-cart-item-quantity
 
 url.build('prescription/index/testing/')
+Preview image:     <input type="file" id="attachment" name="attachment" oninput="pic.src=window.URL.createObjectURL(this.files[0])">
 
-4:30 morning call:    https://zoom.us/j/352827673         
-
-4:30  client call meeting id:     97583931575
 
  
  https://stackoverflow.com/questions/48138175/how-do-i-create-a-form-inside-popup-in-jquery/48432742#48432742
