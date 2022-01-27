@@ -181,6 +181,21 @@ Order: 152451
 Recept
 Welcome123!
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Magento 2 module enable disable from admin
+1.	System.xml
+2.	Helper/Data.php
+3.	Cal helper function in template file.
+Interface: Collection of abstract method is called interface.
+                All methods which is defined under interface will be public and abstract.
+All variable of the interface must be public+static+final.
+
+Admin grid
+1. admin controller index.php
+2. menu.xml and call controller in menu.xml
+3. Routes.xml
+--------------------------------------------------------------------------------------------------------------------------------
+
+
 https://webkul.com/blog/adding-an-addition-tab-on-sales-order-view-page-frontend-magento-2/
 Cmd   for check errors: magento-coding-standard\vendor\bin\PHPCS --standard=PEAR app\code\Pincode\Checker\
 https://magento.stackexchange.com/questions/251843/magento-2checkout-phone-number-field-should-accept-numbers-plus-special-charact
