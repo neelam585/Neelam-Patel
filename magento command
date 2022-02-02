@@ -1,5 +1,6 @@
 ﻿--------------------------------------------------------------------------
 zip -r app.zip app
+www> zip -r html.zip html
 unzip media.zip
 -----------------------------------------------------------------------------
 php bin/magento setup:install --base-url=http://127.0.0.1/M24/ --db-host=localhost --db-name=receptpharmacy --db-user=root --db-password= --admin-firstname=Magento --admin-lastname=User --admin-email=user@example.com --admin-user=admin --admin-password=admin123 --language=en_US --currency=USD --timezone=America/Chicago --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=localhost --elasticsearch-port=9200
@@ -85,10 +86,11 @@ php bin/magento deploy:mode:set developer
 php bin/magento dev:template-hints:enable
 php bin/magento cron:run --group default
 php -dmemory_limit=5G bin/magento setup:static-content:deploy -f
-php bin/magento app:config:import
+php bin/magento app:config:import  
 ------------------------------------------------------------------------------------
 mysqldump -u root -p magento > /var/www/html/magento2-2.4/Pharma13Dec.sql
 mysqldump -u root -p magento > /var/www/html/prod/PharmaProduction13Dec.sql
+mysqldump -u root -p receipt_pharmacy > /var/www/html/magento2-2.4/Uat24Jan.sql
 ------------------------------------------------------------------------------------------ 
 Template enable
 php bin/magento dev:template-hints:enable
@@ -98,14 +100,16 @@ php bin/magento theme:uninstall
  
 select * from theme;
 SELECT * FROM core_config_data WHERE path = "design/theme/theme_id" 
-
+---------------------------------------------------------------------------------------------------------
 - Installing globally PHPCS
 ```
-composer global require squizlabs/php_codesniffer
+1. composer global require squizlabs/php_codesniffer
 ```
+2. composer create-project --repository=https://repo.magento.com magento/marketplace-eqp magento-coding-standard
+3. Cmd   for check errors: magento-coding-standard/vendor/bin/PHPCS --standard=PEAR app/code/Pharmacy/Validation/ 
 
-Cmd   for check errors: magento-coding-standard\vendor\bin\PHPCS --standard=PEAR app\code\Pincode\Checker\ 
- 
+4. magento-coding-standard/vendor/bin/phpcbf --standard=PEAR app/code/Pharmacy/Validation/ 
+
  
 -----------------------------------------------------------------------------------------------------
 \Magento\Framework\App\ObjectManager::getInstance()
@@ -150,7 +154,7 @@ mysqldump -u uat -p poolguard_uat_2 > poolguard_uat_2.sql
 mysqldump -u [user] -p [db_name] | gzip > [filename_to_compress.sql.gz]
 mysqldump -u uat -p poolguard_uat_2 > poolguard_uat_2.sql
  
- mysqldump -u root -p receptpharmacy > receptpharmacy.sql
+mysqldump -u root -p receptpharmacy > receptpharmacy.sql
  
 Hardoi@_1234
  
