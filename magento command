@@ -69,6 +69,8 @@ sudo mv magento2-2.4/* /var/www/html
 admin1@chetuiwk195:/var/www/html/afterinc$ sudo systemctl start elasticsearch
 admin1@chetuiwk195:/var/www/html/afterinc$ sudo systemctl status elasticsearch
 
+https://www.thecoachsmb.com/6-steps-to-install-magento-2-4-3-on-xampp-windows-using-composer/#Step_6_Install_sample_data_for_Magento_243
+
 php bin/magento setup:upgrade && php bin/magento setup:di:compile && php bin/magento setup:static-content:deploy -f && php bin/magento c:f
   
 php bin/magento cache:flush
