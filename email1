@@ -30,6 +30,8 @@ Service contract design patterns: a design pattern is a recommended way of writi
 				  A service contract must define data interfaces, which preserve data integrity, and service interfaces, which hide business logic
 				  from service requestors.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Install Magento 2.4.3:
+php bin/magento setup:install --base-url="http://127.0.0.1/M243/" --db-host="localhost" --db-name="m243" --db-user="root" --db-password="" --admin-firstname="admin" --admin-lastname="admin" --admin-email="user@example.com" --admin-user="admin" --admin-password="Admin@123456" --language="en_US" --currency="USD" --timezone="America/Chicago" --use-rewrites="1" --backend-frontname="admin" --search-engine=elasticsearch7 --elasticsearch-host="localhost" --elasticsearch-port=9200
 https://www.igp.com/p-led-personalized-keychain-99420?currency=inr&utm_source=google&utm_medium=cpc&utm_campaign=2058195812&adgroupid=81728661288&device=c&keyword=&loc_interest_ms=&loc_physical_ms=9302611&feeditemid=&adposition=&gclid=EAIaIQobChMI0d-02Lzl8wIVB4rICh2ccwEVEAQYJyABEgLsT_D_BwE
 https://www.rakeshjesadiya.com/add-new-field-before-shipping-methods-checkout-page-magento-2/
 
