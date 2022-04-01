@@ -1,10 +1,23 @@
 ﻿--------------------------------------------------------------------------
+http://localhost:88/phpmyadmin/
 zip -r app.zip app
 www> zip -r html.zip html
 unzip media.zip
 -----------------------------------------------------------------------------
-php bin/magento setup:install --base-url=http://127.0.0.1/M24/ --db-host=localhost --db-name=receptpharmacy --db-user=root --db-password= --admin-firstname=Magento --admin-lastname=User --admin-email=user@example.com --admin-user=admin --admin-password=admin123 --language=en_US --currency=USD --timezone=America/Chicago --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=localhost --elasticsearch-port=9200
+extension enable in php.ini 
+soap
+socket
+intl 
+xsl
+max_allowed_packet = 200M (in my.ini)
+https://meetanshi.com/blog/remove-version-number-in-file-paths-in-magento-2/
 
+---------------------------------------------------------------------------------------------------------------
+
+php bin/magento setup:install --base-url=http://127.0.0.1/M24/ --db-host=localhost --db-name=m24 --db-user=root --db-password= --admin-firstname=Magento --admin-lastname=User --admin-email=user@example.com --admin-user=admin --admin-password=admin123 --language=en_US --currency=USD --timezone=America/Chicago --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=localhost --elasticsearch-port=9201
+php bin/magento setup:install --base-url=http://127.0.0.1/ReceiptPharmacy/ --db-host=localhost --db-name=receipt_pharmacy --db-user=root --db-password= --admin-firstname=Magento --admin-lastname=User --admin-email=user@example.com --admin-user=admin1 --admin-password=admin123 --language=en_US --currency=USD --timezone=America/Chicago --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=localhost --elasticsearch-port=9200
+php bin/magento setup:install --base-url=http://127.0.0.1:88/M24/ --db-host=localhost --db-name=m24 --db-user=root --db-password= --admin-firstname=Magento --admin-lastname=User --admin-email=user@example.com --admin-user=admin1 --admin-password=admin123 --language=en_US --currency=USD --timezone=America/Chicago --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=localhost --elasticsearch-port=9200
+----------------------------------------------------------------------------------------------------------------------------------------------
 https://stackoverflow.com/questions/19420766/how-to-create-a-qwc-file-for-quickbooks-web-connector
  https://codepen.io/codeorum/embed/abNKdvo?default-tab=result&theme-id=36614
  
@@ -18,22 +31,22 @@ Chage this when site move to https:::************ web/secure/use_in_frontend = 1
 sudo chmod -R 777 var/ generated/ pub/static/
 sudo chmod -R 777 app/etc/config.php
 sudo chmod -R 777 
-
+--------------------------------------------------------------------------------------------------------------
 *******: sudo chmod -R 777 var/ generated/ pub/static/ pub/media/
 
 sudo chmod -R 777 app/code/Pharmacy/Prescription/view/frontend/web/css
 
 php bin/magento config:show web/secure/use_in_adminhtml
  
-sudo -i service elasticsearch start 
-
+sudo -i service elasticsearch start *****
+------------------------------------------------------------------------------------------------------------
 
 http://10.0.1.22/prod/pub/admin_1w3hun/admin/index/index/key/517a0fe8e38de73a953b21a18a33ace52f54ee89a4f8dfd0637401bba420401f/
  
  http://127.0.0.1/M24/admin_sguep5/sales/order/view/order_id/4/key/2cc8565ed045edf40170ae2a1b7bc21edb7e2ab509ce2dc0070d5fa9143d4227/
-adminuser
-admin@123
- 
+admin1
+admin*123
+------------------------------------------------------------------------------------------------------------------------------------------- 
  
 echo  $customerOrder->getSelect()->__toString();     use for print sql query
 
@@ -68,9 +81,7 @@ sudo mv magento2-2.4/* /var/www/html
 --------------------------------------------------------------------------
 admin1@chetuiwk195:/var/www/html/afterinc$ sudo systemctl start elasticsearch
 admin1@chetuiwk195:/var/www/html/afterinc$ sudo systemctl status elasticsearch
-
-https://www.thecoachsmb.com/6-steps-to-install-magento-2-4-3-on-xampp-windows-using-composer/#Step_6_Install_sample_data_for_Magento_243
-
+--------------------------------------------------------------------------------------------------------------------------------------------
 php bin/magento setup:upgrade && php bin/magento setup:di:compile && php bin/magento setup:static-content:deploy -f && php bin/magento c:f
   
 php bin/magento cache:flush
@@ -89,7 +100,14 @@ php bin/magento dev:template-hints:enable
 php bin/magento cron:run --group default
 php -dmemory_limit=5G bin/magento setup:static-content:deploy -f
 php bin/magento app:config:import  
-------------------------------------------------------------------------------------
+
+bin/magento security:recaptcha:disable-for-user-login
+bin/magento security:recaptcha:disable-for-user-forgot-password
+
+ensure that your PHP.ini file includes this setting: allow_url_fopen = 1
+-------------------------------------------------------------------------------------------------------------------
+mysqldump -u root -p magento > var/www/html/magento_10022022.sql  **************
+
 mysqldump -u root -p magento > /var/www/html/magento2-2.4/Pharma13Dec.sql
 mysqldump -u root -p magento > /var/www/html/prod/PharmaProduction13Dec.sql
 mysqldump -u root -p receipt_pharmacy > /var/www/html/magento2-2.4/Uat24Jan.sql
@@ -112,6 +130,11 @@ SELECT * FROM core_config_data WHERE path = "design/theme/theme_id"
 
 4. magento-coding-standard/vendor/bin/phpcbf --standard=PEAR app/code/Pharmacy/Validation/ 
 
+ magento-coding-standard/vendor/bin/PHPCS --standard=Magento2 app/code/Pharmacy/Validation/
+-------------------------------------------------------------------------------------------------------------- 
+Add language file in magento 
+
+bin/magento i18n:collect-phrases -m -o [test.csv]
  
 -----------------------------------------------------------------------------------------------------
 \Magento\Framework\App\ObjectManager::getInstance()
@@ -130,8 +153,8 @@ $ grep -lr "page-title-wrapper" vendor/
 how to  search  particular  word in  folder
  
 Create Admin Login
-php bin/magento admin:user:create --admin-user='neelam' --admin-password='Chetu@123' --admin-email='admin2@chetu.com' --admin-firstname='neelam'
---admin-lastname='admin2'
+php bin/magento admin:user:create --admin-user='admin1' --admin-password='admin*123' --admin-email='admin1@chetu.com' --admin-firstname='neelam'
+--admin-lastname='patel'
  
 for checkout page use in  console
 jQuery('.action.primary.checkout').trigger('click');
@@ -175,6 +198,6 @@ php bin/magento admin:user:create --admin-user=adminuser --admin-password=admin@
 Magento 2.4 installation
 
 php bin/magento setup:install --base-url=http://127.0.0.1/Magento24Testing/ --db-host=localhost --db-name=m241 --db-user=root --db-password= --admin-firstname=Magento --admin-lastname=User --admin-email=user@example.com --admin-user=admin --admin-password=admin123 --language=en_US --currency=USD --timezone=America/Chicago --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=localhost --elasticsearch-port=9200
-
+php bin/magento admin:user:create --admin-user=admin1 --admin-password=admin*123 --admin-email=admin@gmail.com --admin-firstname=test --admin-lastname=user
 
 php bin/magento admin:user:create --admin-user=admin --admin-password=admin@123 --admin-email=admin@gmail.com --admin-firstname=test --admin-lastname=user
