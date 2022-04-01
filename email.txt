@@ -1,0 +1,500 @@
+https://stackoverflow.com/questions/46391102/get-magento-2-custom-attribute-value
+
+
+
+
+local URL
+http://127.0.0.1:88/ReceiptPharmacy/admin_1kbvd8
+
+
+
+•	Work on to do unit testing for additionalPayment module and implement the configuration for log file generation
+
+https://webdamn.com/school-management-system-with-php-mysql/
+https://magento.stackexchange.com/questions/87789/magento2-how-to-get-data-from-system-configuration
+
+
+
+ReceptPharmacy-PHML2 5:15 Reports <ReceptPharmacy-PHML2_515@backbone.chetu.com>
+-----------------------------------------------------------------------------------------------------------------------
+Issue:
+ReceptPharmacy-PHML2 5:15 Reports <ReceptPharmacy-PHML2_515@backbone.chetu.com>
+1 exception(s):
+Exception #0 (Exception): Notice: Undefined index: value in D:\xampp7.3\htdocs\M24\vendor\magento\framework\Data\Form\Element\Select.php on line 89
+error in admin column in select(dropdown)
+------------------------------------------------------------------------------------------------------------------------------------------------
+https://mage2.pro/t/topic/2308
+Fatal error: Maximum execution time of 300 seconds exceeded in D:\xampp7.3\phpMyAdmin\libraries\classes\Dbi\DbiMysqli.php on line 199
+https://stackoverflow.com/questions/1263680/maximum-execution-time-in-phpmyadmin
+create a language/constant files for messages. 
+attend the call and discuss to send original address data through push api
+
+language
+https://magento.stackexchange.com/questions/212894/custom-translation-in-magento-2
+
+Changes in file on aws uat:
+Data helper
+ApiRequest helper
+OrderDataObserver  
+
+12-2-2022 update on aws uat
+customHeader/logo.phtml  add "Manage Address "button
+Override
+edit.phtml
+book.phtml
+12-2-2022 update on aws uat
+
+Cannot process payment: The card issuer timed-out.
+
+message: "A server error stopped your order from being placed. Please try to place your order again."  
+
+
+--------------------------------------------------------------------------------
+Testing credit card details
+https://developer.heartlandpaymentsystems.com/Certification/Testing
+
+------------------------------------------------------------------------------------------------------------------------------
+AWS UAT
+URL: http://stagingpayment.recepthealthcare.com/admin_1w3hun
+admin
+admin*123
+adminer-4.8.1.php
+
+http://stagingpayment.recepthealthcare.com/adminer-4.8.1.php
+
+EC2 IP:- 3.135.134.161
+ 
+RDS end point :- recept-stage.cxyktqw4scxo.us-east-2.rds.amazonaws.com
+Port :- 3306
+User:- admin
+Password:- R%2c#phrmatrt$%41245
+--------------------------------------------------------------------------------------------------------------
+AWS Production
+
+http://apppayment.recepthealthcare.com/admin_1w3hun
+
+RDS
+===========================
+recept-production.cxyktqw4scxo.us-east-2.rds.amazonaws.com
+admin
+H9SR9RqkzJHMpLc8
+ 
+Instance
+===========================
+Production IP :-- 3.13.130.136
+UID – centos
+
+dbname:receipt_pharmacy
+----------------------------------------------------------------------------------------------------------------
+winscp
+
+putty
+host name:centos@3.135.134.161
+connectivity
+ssh 
+auth 
+select pem file
+username:centos
+----------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
+http://10.0.1.22/prod/pub/additionalPayment/index/index?account_id=1567479-557&order_id=152451    : production url
+
+http://10.0.1.22/prod/pub/
+http://10.0.1.22/prod/pub/admin_1w3hun/admin/index/index/key/96a00d33bf6f0f47e371df4a3bcf7c7139729dfb0268ad4707f76af3321b850b/
+
+-------------------------------------------------------------------------------------------------------------------------------
+http://127.0.0.1:88/ReceiptPharmacy/additional/index/index?account_id=1105124-4517&&order_id=95002
+
+http://127.0.0.1:88/ReceiptPharmacy/additional/index/index?account_id=1105124-4514&order_id=94752
+http://127.0.0.1:88/ReceiptPharmacy/additional/index/index?account_id=4931021-1159&order_id=135145
+http://127.0.0.1:88/ReceiptPharmacy/additional/index/index?account_id=1105124-4521&&order_id=94763 ************
+http://127.0.0.1:88/ReceiptPharmacy/additional/index/index?account_id=1105124-4514&order_id=95001
+http://127.0.0.1:88/ReceiptPharmacy/additional/index/index?account_id=1105124-4517&&order_id=94997 
+http://127.0.0.1:88/ReceiptPharmacy/additional/index/index?account_id=1105124-4514&order_id=95001
+
+http://127.0.0.1/Magento24Testing/additional/index/index?account_id=1105124-4496&order_id=94862  
+
+     ???????Phonr missing
+http://127.0.0.1/Magento24Testing/additional/index/index?account_id=1105124-4464&order_id=94723
+http://127.0.0.1/Magento24Testing/additional/index/index?account_id=4931021-1159&order_id=135145
+http://127.0.0.1/Magento24Testing/additional/index/index?account_id=1835579-135&order_id=47078
+http://127.0.0.1/Magento24Testing/additional/index/index?account_id=1105124-4496&order_id=94862   issue
+
+http://127.0.0.1/Magento24Testing/additional/index/index?account_id=1105124-4517&&order_id=94997
+http://127.0.0.1/Magento24Testing/additional/index/index?account_id=1105124-4517&&order_id=95002
+
+neelamp@chetu.com
+satyendras@chetu.com
+Chetu@123
+-----------------------------------------------------------------------------------------------------------------------------
+Login Details:  Admin 
+
+username: admin 
+
+password: admin*123
+---------------------------------------------------------------------------------------------------------------------------------
+reset and remove all your orders, orders history and bestsellers etc.
+-------------------------------------------------------------------------------------------------------------------------------------
+https://stagingezrx.recepthealthcare.com/magento2-2.4/pub/admin_1w3hun/admin/
+username: admin 
+
+password: admin*1234
+------------------------------------------------------------------
+https://stagingezrx.recepthealthcare.com/magento2-2.4/pub
+https://stagingezrx.recepthealthcare.com/magento2-2.4/pub/additionalPayment/index/index?account_id=1105124-4464&order_id=94723
+https://stagingezrx.recepthealthcare.com/magento2-2.4/pub/additionalPayment/index/index?account_id=1105124-4521&order_id=94763
+http://stagingezrx.recepthealthcare.com/magento2-2.4/pub/additionalPayment/index/index?account_id=1567479-557&order_id=152451
+https://stagingezrx.recepthealthcare.com/magento2-2.4/pub/additionalPayment/index/index?account_id=4931021-1159&order_id=135145
+https://stagingezrx.recepthealthcare.com/magento2-2.4/pub/additionalPayment/index/index?account_id=1835579-135&order_id=47078
+https://stagingezrx.recepthealthcare.com/magento2-2.4/pub/additionalPayment/index/index?account_id=1105124-4497&&order_id=94827
+https://stagingezrx.recepthealthcare.com/magento2-2.4/pub/additionalPayment/index/index?account_id=4931021-1159&order_id=135145
+
+https://stagingezrx.recepthealthcare.com/magento2-2.4/pub/additionalPayment/index/index?account_id=1105124-4496&order_id=94862
+
+--------------------------------------------------------------------------------------------------------------------------------------- 
+https://stagingpayment.recepthealthcare.com/admin_1w3hun
+username: admin 
+
+password: admin*1234
+--------------------------------------------------------------------------------------------------------------------------------------- 
+
+AWS Url
+
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1567479-1368&order_id=1550
+
+
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4496&order_id=94862  issue in payment 
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1835579-135&order_id=47078      issue in payment
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1567479-557&order_id=152451     issue in payment
+
+
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=4931021-1159&order_id=135145
+
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4521&order_id=94763
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4497&&order_id=94827  ******
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=4931021-1159&order_id=135145
+
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4533&order_id=95004
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4515&order_id=95005
+
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4485&order_id=94657
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4515&order_id=94743
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4518&order_id=94749
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4514&order_id=94752
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4533&order_id=94995
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4485&order_id=94999
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4518&order_id=95000
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4514&order_id=95001
+
+URL with ccid same
+
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4296&order_id=95006
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4296&order_id=94762
+
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-1575&order_id=94993
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-1575&order_id=94994
+
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4464&order_id=94990
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4464&order_id=94991
+
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4517&order_id=94997
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4517&order_id=95002
+
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4516&order_id=94996
+https://stagingpayment.recepthealthcare.com/additionalPayment/index/index?account_id=1105124-4516&order_id=95003
+-------------------------------------------------------------------------------------------------------------------------------------
+AWS Production URL
+
+http://apppayment.recepthealthcare.com/additionalPayment/index/index?account_id=4931021-1159&order_id=135145
+http://3.13.130.136/pub/additionalPayment/index/index?account_id=4931021-1159&order_id=135145
+
+----------------------------------------------------------------------------------------------------------------------------------------
+https://magento.stackexchange.com/questions/167894/magento-2-shipping-method-not-working-sorry-no-quotes-are-available-for-this
+https://github.com/magepow/magento-2-banner-slider/blob/master/Block/Adminhtml/Magicslider/Grid.php  : Without ui component
+
+http://127.0.0.1/M24/admin_sguep5/grid/post/index/key/68dcde4e210ab5d00c29584cc1248ef20566c1c0df52f9cf1059151d08a3daf6/
+username adminuser
+pass: admin*123
+
+Recept
+Welcome123!"
+ERR_TOO_MANY_REDIRECTS
+ReceptPharmacy-PHML2 5:15 Reports
+
+1105124-4464&order_id=94723
+
+{
+  "CCID": "1105124-4521",
+  "Order": 94763
+}
+https://store.magenest.com/blog/magento-2-modal-widget/
+https://www.rakeshjesadiya.com/add-new-field-before-shipping-methods-checkout-page-magento-2/
+https://www.mageants.com/blog/how-to-add-fee-to-order-totals-in-magento-2.html
+https://magento.stackexchange.com/questions/92774/how-to-add-fee-to-order-totals-in-magento-2
+https://magento.stackexchange.com/questions/92434/magento-2-replacement-for-magelog-method
+https://webkul.com/blog/redirect-to-third-party-link-after-order-place-magento2/
+https://firebearstudio.com/blog/magento-2-image-rendering.html
+https://magento.stackexchange.com/questions/271092/how-to-disable-module-on-the-basis-of-configuration-values-in-magento-2
+https://www.rohanhapani.com/magento-2-3-create-a-new-table-using-declarative-schema/
+https://globedrill.com/unzip-command-not-found-how-to-install-unzip-command-on-linux-server/
+https://www.bizspice.com/blog/post/develop-a-custom-payment-method-in-magento-2
+
+https://swissuplabs.com/blog/do-you-create-a-multi-language-website-follow-the-complete-guide-on-magento-2-translation/
+https://zanetabaran.com/how-to-in-magento-2-how-to-display-additional-text-based-on-selected-shipping-methods-in-the-checkout/
+
+https://www.geeksforgeeks.org/how-to-change-the-href-value-of-a-tag-after-click-on-button-using-javascript/
+https://www.thecoachsmb.com/6-steps-to-install-magento2-4-2-on-xampp-windows-using-composer/#Step_2_Install_elasticsearch_on_windows_OS
+https://linuxize.com/post/how-to-move-files-in-linux-with-mv-command/	
+
+http://127.0.0.1/Magento24Testing/sales/order/history/
+<a href="http://127.0.0.1/Magento24Testing/sales/order/print/order_id/387/" class="action print" target="_blank" rel="noopener">
+        <span>Print Order</span>
+    </a>
+
+ http://developer.heartlandpaymentsystems.com/Account/SignIn 
+
+
+http://127.0.0.1/Magento24Testing/additionalPayment/index/index?account_id=1567479-557&&order_id=152451
+
+vendor\magento\module-theme\view\frontend\templates\html\header
+
+  Backbone Link: https://backbone.chetu.com/Customer-Projects/ReceptPharmacy-PHML2/Lists/QA/AllItems.aspx 
+Tl Dashboard: http://dashboard.chetu.com/
+
+/var/www/html/magento2-2.4/app
+---------------------------------------------------------------------------------------------------------
+https://stagingezrx.recepthealthcare.com/magento2-2.4/pub/admin_1w3hun/
+username: admin 
+PAssword: admin@123 
+---------------------------------------------------------------------------------------------------------- 
+ 
+UAT
+
+SSH
+IP: 10.0.1.20
+Username: chetu
+Password: GM##%8$dRjk1!sMzKT0U
+-------------------------------------------------------------------------------------------------------------
+Production
+
+IP: 10.0.1.22
+Username: chetu
+Password: GM##%8$dRjk1!sMzKT0U
+
+------------------------------------------------------------------------------------------------------------
+
+php bin/magento setup:store-config:set --base-url="http://10.0.1.22/prod/pub/"
+
+cd /var/www/html
+ls -l 
+---------------------------------------------------------------------------------------------------------------
+VPN 
+User-1: chetudev4
+Pass: zeGfUFtXx5OYKHIb73%P
+
+User-2: chetudev3
+PW: 8%N%.-N*qfnQmn_M
+------------------------------------------------------------------------------------------------------------
+
+https://stagingtp.recepthealthcare.com:86/swagger/index.html
+https://campus.barracuda.com/register/
+
+API
+ https://stagingtp.recepthealthcare.com:86/swagger/index.html 
+  "UserName": "Recept",
+   "Password": "Welcome123!"
+  
+  CCID : 1567479-557
+Order: 152451
+
+Recept
+Welcome123!
+----------------------------------------------------------------------------------------------------------------
+https://stackoverflow.com/questions/6204867/fastest-way-to-remove-hyphens-from-a-string
+https://inchoo.net/magento-2/magento-coding-standards/
+https://magento.stackexchange.com/questions/1504/duplicate-title-tags-magento-issue
+https://meetanshi.com/blog/print-log-in-magento-2/
+
+https://www.bizspice.com/blog/post/custom-form-field-in-magento-2
+https://webkul.com/blog/send-images-through-ajax/
+https://magento.stackexchange.com/questions/313143/magento-2-split-order-based-on-product-attribute
+https://stackoverflow.com/questions/1279957/how-to-move-an-element-into-another-element
+
+Cmd   for check errors: magento-coding-standard\vendor\bin\PHPCS --standard=PEAR app\code\Pincode\Checker\
+https://magento.stackexchange.com/questions/251843/magento-2checkout-phone-number-field-should-accept-numbers-plus-special-charact
+
+https://stackoverflow.com/questions/56516668/automatically-add-hyphen-in-phone-number-e-g-111-111-1111
+
+https://github.com/magento/magento-coding-standard
+
+https://www.rakeshjesadiya.com/event-sales-model-service-quote-submit-before-magento/
+
+
+https://magento.stackexchange.com/questions/106902/check-if-product-with-sku-exists-in-magento-2
+
+https://magento.stackexchange.com/questions/156176/magento-2-requested-store-is-not-found
+https://www.igp.com/p-led-personalized-keychain-99420?currency=inr&utm_source=google&utm_medium=cpc&utm_campaign=2058195812&adgroupid=81728661288&device=c&keyword=&loc_interest_ms=&loc_physical_ms=9302611&feeditemid=&adposition=&gclid=EAIaIQobChMI0d-02Lzl8wIVB4rICh2ccwEVEAQYJyABEgLsT_D_BwE
+
+haba6395
+
+Invalid parameter given. A valid $fileId[tmp_name] is expected.
+Go to vendor/magento/framework/File/Uploader.php
+In function _setUploadFileId($fileId), change:
+$this->validateFileId($fileId);
+to
+//$this->validateFileId($fileId);
+
+URL key for specified store already exists.
+
+https://community.magento.com/t5/Magento-2-x-Admin-Configuration/Delete-Test-Orders-Magento-2-3/m-p/120159#M3530
+https://backbone.chetu.com/Customer-Projects/ReceptPharmacy-PHML2/Lists/QA/AllItems.aspx 
+https://magento.stackexchange.com/questions/162366/checkout-page-phone-number-validation
+hrome-error://chromewebdata
+
+
+https://dolphinwebsolution.com/how-to-perform-crud-operation-with-a-custom-module-in-magento-2
+https://magecomp.com/blog/create-simple-product-programmatically-in-magento-2/
+https://www.rakeshjesadiya.com/how-to-create-customer-and-add-new-address-programmatically-in-magento-2/
+
+https://magento.stackexchange.com/questions/313467/remove-product-image-from-checkout-page
+
+
+https://magento.stackexchange.com/questions/160020/magento-2-uncheck-my-billing-and-shipping-address-are-the-same-checkbox-in-che
+
+
+https://magento.stackexchange.com/questions/276751/uncheck-billing-and-shipping-address-are-same-checkbox-in-magento2-if-pickup-sto
+https://magento.stackexchange.com/questions/233374/how-to-uncheck-my-billing-and-shipping-address-are-the-same-checkbox-during-ch
+
+https://magento.stackexchange.com/questions/305410/customer-receiving-recoverable-error-object-of-class-message-on-checkout-in-m
+
+
+ip  192.168.2.42
+chetu iwk313
+
+http://docs.cedcommerce.com/magento-2/pincode-checker-m2-admin-guide-2/?section=manage-pincodes
+https://dolphinwebsolution.com/how-to-perform-crud-operation-with-a-custom-module-in-magento-2
+
+https://magento.stackexchange.com/questions/258430/magento-2-create-admin-grid-with-two-tables-of-different-structures-using-ui-c
+
+https://easycloudsupport.zendesk.com/hc/en-us/articles/360002057472-How-to-Fix-504-Gateway-Timeout-using-Nginx
+https://firebearstudio.com/blog/how-to-fix-invalidated-cache-performance-response-time-degradation-in-magento-2.html
+
+https://www.rohanhapani.com/magento-2-create-admin-grid-and-form-without-ui-component/
+https://webkul.com/blog/add-custom-columns-to-order-grid-in-admin-magento-2/
+
+https://community.magento.com/t5/Magento-2-x-Admin-Configuration/Delete-Test-Orders-Magento-2-3/m-p/120159#M3530
+
+https://blog.qaisarsatti.com/knowledge-base/magento-2-remove-tool-tip-icon-checkout-page/
+https://magento.stackexchange.com/questions/221617/magento-2-hide-ship-to
+https://magento.stackexchange.com/questions/155328/remove-discount-code-form-from-checkout-page-magento2
+https://docs.servicenow.com/bundle/paris-application-development/page/integrate/odbc-driver/task/t_DownloadAndInstallTheODBCDriver.html
+https://store.servicenow.com/sn_appstore_store.do#!/store/application/c847b9ffdb9c5050f20ff5471d9619d6
+
+https://stackoverflow.com/questions/17859989/call-to-undefined-function-odbc-connect-message-while-connecting-sap-hana-data
+
+
+http://127.0.0.1/M24/admin_sguep5/sales/order/view/order_id/4/key/2cc8565ed045edf40170ae2a1b7bc21edb7e2ab509ce2dc0070d5fa9143d4227/
+adminuser
+admin@123
+
+
+http://127.0.0.1/Magento24Testing/admin/admin/index/index/key/834c745cdff010a05548b67cc34372756f4cfaada541664eb5ff1836668428a7/
+john
+Admin@123
+
+
+login : brajr@chetu.com      June@2021
+
+
+
+brajr@chetu.com
+June@2021
+
+rohitk6@chetu.com   Chetu@123
+
+
+ReceptPharmacy-PHML_515@backbone.chetu.com
+amitk6@chetu.com designor
+
+https://www.weltpixel.com/
+https://www.weltpixel.com/resources/PearlTheme/User-Guide-WeltPixel-Pearl-Theme-Magento2.html
+https://www.weltpixel.com/resources/PearlTheme/User-Guide-WeltPixel-Pearl-Theme-Magento2.html
+
+https://blog.qaisarsatti.com/magento_2/magento2-load-customer-by-id/
+https://magento.stackexchange.com/questions/78164/how-to-add-a-customer-programmatically-in-magento-2
+https://magento.stackexchange.com/questions/103549/login-programmatically-in-magento-2#:~:text=Now%20lets%20say%20this%20is,(%24customer)%3B%20...%20%7D
+https://magento.stackexchange.com/questions/94265/how-to-set-retrieve-and-unset-session-variables-in-magento-2
+https://www.tutorialsplane.com/magento-2-set-session-timeout/
+https://www.fmeextensions.com/blog/magento-2-remove-apply-discount-code-from-checkout/
+https://www.rohanhapani.com/how-to-add-phone-number-validation-in-checkout-in-magento-2/
+https://www.magemonkeys.com/magento-2-add-custom-validation-to-billing-address-field/
+https://magento.stackexchange.com/questions/251843/magento-2checkout-phone-number-field-should-accept-numbers-plus-special-charact
+https://meetanshi.com/blog/magento-2-form-validation/
+https://aureatelabs.com/magento-2/how-to-add-custom-link-in-header-links-and-top-links-in-magento-2/
+https://magento.stackexchange.com/questions/188956/magento-2-how-to-add-external-url-in-custom-top-links
+https://www.mageplaza.com/devdocs/magento-2-create-order-programmatically.html
+https://meetanshi.com/blog/programmatically-add-product-to-cart-in-magento-2/
+https://www.magentoexpertise.in/send-email-with-attachment-magento2/
+https://github.com/mageplaza/magento-2-email-attachments
+https://github.com/dompdf/dompdf
+https://magento.stackexchange.com/questions/287019/after-creating-custom-pdf-save-magento-2-3
+https://www.codextblog.com/code-snippet/get-order-information-from-order-id-in-magento-2/
+https://webkul.com/blog/generate-pdf-programmatically-magento2/
+https://magecomp.com/blog/change-order-pdf-format-magento-2/
+https://fooman.com/checkout
+https://magento.stackexchange.com/questions/104044/magento-2-send-email-with-attachment
+https://store.magenest.com/blog/custom-css-file/
+https://magecomp.com/blog/add-js-file-frontend-pages-magento-2/
+https://magento.stackexchange.com/questions/320259/when-click-image-and-show-clicking-image-in-popup-in-magento-2
+https://webkul.com/blog/magento2-mysql-join-explained/
+https://www.rakeshjesadiya.com/get-customer-order-collection-by-customer-id-magento-2/
+https://www.rakeshjesadiya.com/get-customer-order-collection-by-customer-id-magento-2/#:~:text=The%20customer%20id%20is%20required,apply%20condition%20with%20customer%20id.
+https://magento.stackexchange.com/questions/208685/magento-2-get-attribute-option-label-by-attribute-option-id
+https://webkul.com/blog/get-custom-parameters-custom-knockout-js-checkout-page/
+https://magento.stackexchange.com/questions/127476/how-to-show-success-message-in-session-magento2
+https://webkul.com/blog/redirect-controller-observer-magento2/
+https://stackoverflow.com/questions/46889433/custom-magento-2-messages-only-show-on-checkout-cart-page
+https://magento.stackexchange.com/questions/138355/magento-2-check-condition-on-click-of-proceed-to-checkout
+https://magento.stackexchange.com/questions/159955/how-to-get-all-products-in-cart-magento-2-1
+https://magento.stackexchange.com/questions/283859/add-column-to-sales-order-view-page
+https://magento.stackexchange.com/questions/283859/add-column-to-sales-order-view-page
+
+https://webkul.com/blog/quickly-log-in-custom-file-in-magento-2/
+https://www.webnexs.com/blog/kb/copy-custom-data-quote-item-order-item-magento-2/     :How to copy custom data from quote item to order item in Magento 2?
+https://magento.stackexchange.com/questions/249553/magento-2-how-to-convert-custom-quote-field-to-order-field
+https://www.rakeshjesadiya.com/event-sales-model-service-quote-submit-before-magento/
+https://magento.stackexchange.com/questions/114081/magento-2-how-to-delete-image-or-file
+
+https://meetanshi.com/blog/solved-invalid-parameter-given-a-valid-fileidtmp_name-is-expected-in-magento-2-3-3/
+https://magento.stackexchange.com/questions/237027/programatically-update-cart-item-quantity
+
+url.build('prescription/index/testing/')
+
+4:30 morning call:    https://zoom.us/j/352827673         422+173=595
+
+4:30  client call meeting id:     97583931575
+
+ 
+ https://stackoverflow.com/questions/48138175/how-do-i-create-a-form-inside-popup-in-jquery/48432742#48432742
+ https://magecomp.com/blog/magento-2-get-system-configuration-value-js/
+ https://magento.stackexchange.com/questions/87789/magento2-how-to-get-data-from-system-configuration
+ 
+ https://webkul.com/blog/get-custom-parameters-custom-knockout-js-checkout-page/
+https://www.rohanhapani.com/how-to-add-extra-column-on-shopping-cart-page-in-magento-2/
+https://magenticians.com/create-custom-theme-magento-2/
+https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded
+http://hkpatel201.blogspot.com/2018/05/magento2-upload-files.html
+https://magento.stackexchange.com/questions/160861/magento-2-updating-quote-item
+https://www.magemonkeys.com/upload-and-delete-image-though-ajax-in-magento-2/
+https://webkul.com/blog/redirect-page-ajax-request-magento2/
+https://magento.stackexchange.com/questions/211985/how-to-recreate-magento-2-backend-image-upload-in-frontend
+https://github.com/chiragit007/magento2-module-with-file-upload/blob/master/Ktpl/Chirag/Controller/Index/Post.php
+https://magento.stackexchange.com/questions/115129/magento-2-how-to-load-quote-by-quote-id
+https://stackoverflow.com/questions/37205438/image-upload-with-preview-and-delete-option-javascript-jquery
+https://stackoverflow.com/questions/23402187/multiple-files-upload-and-using-file-reader-to-preview
+
+https://magento.stackexchange.com/questions/180371/magento-2-save-additional-data-to-order
+
+https://meetanshi.com/blog/show-popup-after-add-to-cart-action-in-magento-2/
+https://magentodeveloper.in/add-popup-to-product-view-page-magento2.html
+https://magento.stackexchange.com/questions/28723/how-do-i-reset-magento-admin-user-role
