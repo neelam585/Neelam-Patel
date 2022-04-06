@@ -310,6 +310,7 @@ Order: 152451
 Recept
 Welcome123!
 ----------------------------------------------------------------------------------------------------------------
+https://magento.stackexchange.com/questions/114525/import-custom-csv-to-custom-table-magento-2
 https://www.rakeshjesadiya.com/create-product-attribute-programmatically-in-magento-2/
 https://stackoverflow.com/questions/6204867/fastest-way-to-remove-hyphens-from-a-string
 https://inchoo.net/magento-2/magento-coding-standards/
