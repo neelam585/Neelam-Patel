@@ -310,6 +310,7 @@ Order: 152451
 Recept
 Welcome123!
 ----------------------------------------------------------------------------------------------------------------
+https://magefan.com/blog/magento-2-object-manager
 https://bsscommerce.com/confluence/quick-overview-of-object-manager-in-magento-2/
 https://magento.stackexchange.com/questions/114525/import-custom-csv-to-custom-table-magento-2
 https://www.rakeshjesadiya.com/create-product-attribute-programmatically-in-magento-2/
