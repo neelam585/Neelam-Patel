@@ -310,6 +310,7 @@ Order: 152451
 Recept
 Welcome123!
 ----------------------------------------------------------------------------------------------------------------
+https://www.folio3.com/blog/custom-caching-in-magento/
 https://www.optiweb.com/blog/magento-2-custom-cache-type/
 https://magefan.com/blog/magento-2-object-manager
 https://bsscommerce.com/confluence/quick-overview-of-object-manager-in-magento-2/
