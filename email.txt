@@ -310,6 +310,8 @@ Order: 152451
 Recept
 Welcome123!
 ----------------------------------------------------------------------------------------------------------------
+https://www.thecoachsmb.com/how-to-add-owl-carousel-slider-in-magento-2/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-add-owl-carousel-slider-in-magento-2
+https://www.rohanhapani.com/how-to-add-owl-carousel-slider-in-magento-2/
 https://www.folio3.com/blog/custom-caching-in-magento/
 https://www.optiweb.com/blog/magento-2-custom-cache-type/
 https://magefan.com/blog/magento-2-object-manager
