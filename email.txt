@@ -1,3 +1,8 @@
+if(strpos(strtolower($currentUrl), "checkout")) {?>
+				<a class="button action continue primary btnBg" href="<?=$orderHistoryurl?>" style="float:right;text-transform:initial"><?=__('Order History')?></a>
+				<a class="button action continue primary btnAddr" href="<?=$custAddr?>" style="float:right;text-transform:initial"><?=__('Manage Address')?></a>
+			<?php }
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 https://stackoverflow.com/questions/46391102/get-magento-2-custom-attribute-value
 
 
