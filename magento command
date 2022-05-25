@@ -11,6 +11,21 @@ intl
 xsl
 max_allowed_packet = 200M (in my.ini)
 https://meetanshi.com/blog/remove-version-number-in-file-paths-in-magento-2/
+--------------------------------------------------------------------------------------------------------------------
+Corn Job Codes
+
+/usr/local/bin/php /home/aonequalityml/public_html/bin/magento indexer:reindex
+
+/usr/local/bin/php home/aonequalityml/public_html/bin/magento cron:install [--force]
+
+
+/usr/local/bin/php /home/aonequalityml/public_html/bin/magento cron:run | grep -v "Ran jobs by schedule" >> /home/aonequalityml/public_html/var/log/magento.cron.log
+
+/usr/local/bin/php /home/aonequalityml/public_html/update/cron.php >> /home/aonequalityml/public_html/var/log/update.cron.log
+
+/usr/local/bin/php /home/aonequalityml/public_html/bin/magento setup:cron:run >> /home/aonequalityml/public_html/var/log/setup.cron.log</pre>
+
+
 
 ---------------------------------------------------------------------------------------------------------------
 
