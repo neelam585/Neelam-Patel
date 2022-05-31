@@ -1,4 +1,10 @@
-Repository:
+Observers are the particular classes that control the general behavior, performance, or change in the business logic of the store. 
+They are executed whenever a specific event for which they were set to listen is triggered.
+
+In Magento 2, plugins are used for changing the behavior of any original public method. Moreover,
+
+===============================================================================================================
+===Repository:
 https://webkul.com/blog/create-repositories-magento2/
 https://github.com/fsspencer/magento2-entity-model-repository
 https://amasty.com/knowledge-base/how-to-create-a-repository-interface-in-magento-2.html
