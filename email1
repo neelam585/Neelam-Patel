@@ -3,6 +3,8 @@ They are executed whenever a specific event for which they were set to listen is
 
 In Magento 2, plugins are used for changing the behavior of any original public method. Moreover,
 
+Viretual Type: Type adjusts existing classes, whereas Virtual Types creates a new class.
+
 ===============================================================================================================
 ===Repository:
 https://webkul.com/blog/create-repositories-magento2/
