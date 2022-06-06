@@ -12,6 +12,17 @@ xsl
 max_allowed_packet = 200M (in my.ini)
 https://meetanshi.com/blog/remove-version-number-in-file-paths-in-magento-2/
 --------------------------------------------------------------------------------------------------------------------
+=================================================================================================
+linux command
+https://askubuntu.com/questions/890818/ubuntu-16-04-how-to-start-xampp-control-panel
+sudo apt-get install php-xml
+sudo systemctl enable elasticsearch.service
+admin1@CHETUIWK690:~$ sudo systemctl start elasticsearch
+admin1@CHETUIWK690:~$ sudo systemctl enable elasticsearch
+apt-get install php7.4.3-pdo php7.4.3-mysql
+file permission: admin1@CHETUIWK690:/opt/lampp/etc$ sudo chmod -R 777 php.ini
+
+==========================================================================================================
 Corn Job Codes
 
 /usr/local/bin/php /home/aonequalityml/public_html/bin/magento indexer:reindex
