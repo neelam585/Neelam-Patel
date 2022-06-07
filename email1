@@ -9,6 +9,7 @@ Virtual types are a way to inject different dependencies into existing classes w
 MIXIN: Suppose you have to do some task before any js script’s function run or to extend a function or to modify some data without overwrite of js
 
 ===============================================================================================================
+https://meetanshi.com/blog/magento-2-salable-quantity-vs-quantity/
 diff b/w sql and elasticsearch
 https://www.geeksforgeeks.org/difference-between-elasticsearch-and-ms-sql/
 data provider
