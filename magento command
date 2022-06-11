@@ -17,10 +17,36 @@ linux command
 https://askubuntu.com/questions/890818/ubuntu-16-04-how-to-start-xampp-control-panel
 sudo apt-get install php-xml
 sudo systemctl enable elasticsearch.service
+---------------------------------------------------------------------
+disable magento module
+Csp, Authorization, twofator
+php bin/magento Module:disable Magento_Authorization
+
+------------------------------------------------------------------------------- 
+Not Found
+The requested URL was not found on this server.
+Apache/2.4.41 (Ubuntu) Server at 127.0.0.1 Port 80
+
+https://www.codegrepper.com/code-examples/shell/not+found+the+requested+url+was+not+found+on+this+server.+apache%2F2.4.41+%28ubuntu%29+server+at+localhost+port+80
+--------------------------------------------------------------------------------------
+sudo /opt/lampp/lampp start
+-----------------------------------------------------------------------------------------------
 admin1@CHETUIWK690:~$ sudo systemctl start elasticsearch
 admin1@CHETUIWK690:~$ sudo systemctl enable elasticsearch
+--------------------------------------------------------------------------------------------
 apt-get install php7.4.3-pdo php7.4.3-mysql
 file permission: admin1@CHETUIWK690:/opt/lampp/etc$ sudo chmod -R 777 php.ini
+install php extension: $ sudo apt install php7.4-curl
+admin1@CHETUIWK690:/opt/lampp/htdocs/receiptPharmacy/var/log$ sudo chmod -R 777 system.log
+sudo apt-get upgrade
+----------------------------------------------------------
+In InstallCommand.php line 274:
+                               
+  Parameter validation failed 
+--------------------------------------------------------------
+Magento 2.4.2 issue
+array_key_exists --------------- isset(), property_exists()
+  
 
 ==========================================================================================================
 Corn Job Codes
