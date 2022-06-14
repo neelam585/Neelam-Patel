@@ -7,7 +7,26 @@ Viretual Type: Type adjusts existing classes, whereas Virtual Types creates a ne
 Virtual types are a way to inject different dependencies into existing classes without affecting other classes.
 
 MIXIN: Suppose you have to do some task before any js script’s function run or to extend a function or to modify some data without overwrite of js
+=====================================================================================================================
+https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html
 
+https://www.rohanhapani.com/how-to-create-custom-widget-in-magento-2/
+
+https://mobecls.com/create-custom-widgets-magento/
+https://meetanshi.com/blog/check-if-current-area-is-frontend-or-backend-in-magento-2/
+https://www.mageplaza.com/devdocs/modules-areas-magento-2.html#what-is-an-area-in-magento-2
+https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_depend.html
+https://devdocs.magento.com/guides/v2.4/get-started/bk-get-started-api.html
+https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/cache_for_frontdevs.html
+https://devdocs.magento.com/guides/v2.4/get-started/create-integration.html
+
+
+About application modes:
+Default mode: exception are not display to the user.it's written in log file.
+            :  static view file cache is enable.
+              
+Developer mode: exception are display on the frontend.
+              : disable static view file.
 ===============================================================================================================
 https://meetanshi.com/blog/magento-2-salable-quantity-vs-quantity/
 diff b/w sql and elasticsearch
