@@ -8,6 +8,8 @@ Virtual types are a way to inject different dependencies into existing classes w
 
 MIXIN: Suppose you have to do some task before any js script’s function run or to extend a function or to modify some data without overwrite of js
 =====================================================================================================================
+https://magento.stackexchange.com/questions/114142/magento-2-dont-need-delivery-address
+https://amasty.com/knowledge-base/what-is-the-difference-between-shipping-and-billing-addresses-in-magento-2.html
 https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html
 
 https://www.rohanhapani.com/how-to-create-custom-widget-in-magento-2/
