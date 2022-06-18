@@ -39,6 +39,7 @@ Default mode: exception are not display to the user.it's written in log file.
 Developer mode: exception are display on the frontend.
               : disable static view file.
 ===============================================================================================================
+https://bsscommerce.com/blog/magento-2-simple-product-custom-option-vs-configurable-product/
 https://meetanshi.com/blog/magento-2-salable-quantity-vs-quantity/
 diff b/w sql and elasticsearch
 https://www.geeksforgeeks.org/difference-between-elasticsearch-and-ms-sql/
