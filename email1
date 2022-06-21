@@ -18,6 +18,17 @@ module_decimal
 module_int
 module_text
 module_varchar
+
+About application modes:
+Default mode: exception are not display to the user.it's written in log file.
+            :  static view file cache is enable.
+              
+Developer mode: exception are display on the frontend.
+              : disable static view file.
+              
+cashe clean: remove all enabled magento cashe and when page load generate cashe again.
+Cashe flush: remove all magento cashe as well as third party cashe.
+cashe refresh: remove all enabled magento cashe and generate again.  
 --------------------------------------------------------------------------------------------------
 post_dispatch and pre_dispatch event
 cashe flush cache cleane
