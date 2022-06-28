@@ -41,7 +41,7 @@ customer was website wise.
 price are website wise.
 ====================================================================================
 Abstraction: we can achive abstraction by two way
-1:by abstract class  (it has abstract methods or concret method or both, methods are public or procted)(0 to 100%)
+1:by abstract class  (it has abstract methods(no body) or concret method(has body part) or both, methods are public or procted)(0 to 100%)
 2: by interface class (all method must be public or abstract methods)(100%)
 *** Abstract Methods Means Those Who Don't Have a Body. we define the body in another class(whose extent the abstract class).
 Interface is a blueprint of a class 
