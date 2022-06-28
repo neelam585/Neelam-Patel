@@ -38,6 +38,18 @@ eav table in magento 2
 website
 Products are store wise
 customer was website wise.
+price are website wise.
+====================================================================================
+Abstraction: we can achive abstraction by two way
+1:by abstract class  (it has abstract methods or concret method or both, methods are public or procted)(0 to 100%)
+2: by interface class (all method must be public or abstract methods)(100%)
+*** Abstract Methods Means Those Who Don't Have a Body. we define the body in another class(whose extent the abstract class).
+Interface is a blueprint of a class 
+Interface tells the class what to do. How to do this is not the job of the interface.
+1: it is used to achive abstraction.
+2: it support multiple inheritance.  The important point is, it can’t define the function inside interface, it should be defined inside the child class.
+3: it can be used to achive loose coupling. means If you change one model, it will not affect the other.
+4: use implement keyword,
 =====================================================================================================================
 https://www.tigren.com/blog/eva-catalog-flat-catalog/
 https://www.mageplaza.com/magento-2-module-development/magento-2-create-events.html#step-1-dispatch-event
