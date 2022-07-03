@@ -1,0 +1,64 @@
+ GraphQl
+
+
+  Magento implements GraphQL to provide an alternative to REST and SOAP web APIs for frontend development.
+Mutations must be POST requests.
+Graphql queries are more bytes than simply going to a REST endpoint
+ GraphQL is not database technology. GraphQL is a query language used for APIs, it is not a query language for database. 
+ GraphQL can be used with any database or even without a database.
+ 
+GraphQL queries return a JSON response.
+GraphQL helps in data loading process.
+GraphQL helps in low network areas
+GraphQL solves over and under fetching problems
+GraphQL queries can fetch all the data in a single request.
+a) GraphQL uses only one endpoint but REST has multiple endpoints.
+c) We can change the request data format in GraphQL, but we can’t do that in REST.
+14. Give three difference of GraphQL and REST
+a) GraphQL is a query language, but REST is not
+b) REST uses different routes for different requests, but GraphQL doesn’t have any routes.
+c) GraphQL uses query, mutation and subscription but REST uses GET, PUT, POST, DELETE and PATCH.
+GraphQL is designed only to work online.
+We can test a GraphQL query and mutation in the browser
+GraphQL doesn’t support server-side caching.
+GraphQL supports query, mutation and subscription. Queries are used for the read operation, mutation is for a write operation and 
+subscription is used to listen for any changes.
+
+A query is used to read data. Similar to the GET request of REST APIs, we can fetch data from a GraphQL server using a query.
+Mutation is used for the write operation. A mutation is used for operations like add, delete and edit data.
+ GraphQL allows us to use __typename to get the name of the object type.
+Using aliases, we can change the field name of a GraphQL return JSON
+GraphQL supports five scalar types: Int, Float, String, Boolean and ID.
+Union is used to represent multiple objects in GraphQL.
+We can implement authentication like OAuth in GraphQL.
+Apollo platform is an implementation of GraphQL that includes two open sourced libraries to create client and server. 
+The client is used to fetch data from a GraphQL server and the server is used to create an API for GraphQL client.
+
+Apollo library supports caching.
+Resolver is used to produce a response to a GraphQL query. Resolver is used to handle queries.
+Remote schemas are used to create GraphQL schema objects that delete to a separate remote server.
+Schema stitching is used to combine multiple GraphQL APIs into one single API.
+Over-Fetching and Under-fetching both are the performance issues that can be solved by using GraphQL.These problems occur when you have to maintain 
+multiple endpoints to get the exact right data. It has increased the data load, which finally results in a performance issue.
+
+SDL(Schema Definition Language) is the language that is used to write GraphQL schemas.
+GraphQL doesn't support server-side caching like REST.
+Mutation is one of the most important operations in GraphQL. It is used for write operation when you want to add delete and edit data.
+A GraphQL query is used to read data. It is similar to the GET request we use in REST APIs. The GraphQL queries are used to retrieve data 
+from the GraphQL server.
+
+GraphQL Voyager is an open-sourced library used to represent any GraphQL API to an interactive graph.
+
+
+Language
+Name of the GraphQL Library
+Java
+graphql-java
+Python
+Graphene
+JavaScript
+express-graphql
+
+Schema stitching is used to merge or combine multiple GraphQL APIs into a single API.
+
+
