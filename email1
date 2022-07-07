@@ -3,6 +3,15 @@ They are executed whenever a specific event for which they were set to listen is
 
 In Magento 2, plugins are used for changing the behavior of any original public method. Moreover,
 
+Before: we will use before listener when we want to change parameter of an method.
+      : The before listener methods do not need to have a return value.  
+After : want to add some behavior after an original method is called.
+      : The after listener methods do not need to have a return value.
+      
+Arround: The around listener methods must have a return value.     
+
+
+
 Viretual Type: Type adjusts existing classes, whereas Virtual Types creates a new class. Virtual Type must extend a concrete class type.
 Virtual types are a way to inject different dependencies into existing classes without affecting other classes.
 
