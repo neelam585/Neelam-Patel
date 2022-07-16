@@ -60,6 +60,18 @@ Interface tells the class what to do. How to do this is not the job of the inter
 3: it can be used to achive loose coupling. means If you change one model, it will not affect the other.
 4: use implement keyword,
 =====================================================================================================================
+Polymorphims
+
+water, sound -> different form
+Type
+1: compile time polymorphims(method overloading) -> static polymorphims (handel by compiler)
+.In the case of PHP, we have to utilize PHP's magic methods __call() to achieve method overloading.
+
+2: run time polymorphims(methot overriding) -> dynamic polymorphims(handel by jvm)
+
+ In function overloading, more than one function can have same method signature but different number of arguments. 
+ But in case of function overriding, more than one functions will have same method signature and number of arguments. 
+=====================================================================================================================================================
 https://www.tigren.com/blog/eva-catalog-flat-catalog/
 https://www.mageplaza.com/magento-2-module-development/magento-2-create-events.html#step-1-dispatch-event
 https://marketplace.webkul.com/knowledgebase/bundle-product-vs-grouped-product/
