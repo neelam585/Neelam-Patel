@@ -62,6 +62,9 @@ Interface tells the class what to do. How to do this is not the job of the inter
 =====================================================================================================================
 Polymorphims
 
+By using polymorphism, you can reduce coupling and increase code reusability.
+Use interfaces or abstract classes to implement polymorphism in PHP.
+
 water, sound -> different form
 Type
 1: compile time polymorphims(method overloading) -> static polymorphims (handel by compiler)
